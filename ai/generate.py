@@ -8,7 +8,7 @@ client = AsyncOpenAI(
 
 async def ai_generate(text: str):
     completion = await client.chat.completions.create(
-      model="deepseek/deepseek-chat",
+      model="anthropic/claude-sonnet-4.5",
       messages=[
         {
           "role": "user",
