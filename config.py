@@ -1,1 +1,4 @@
-TG_TOKEN = '8041476626:AAG_WotSS1Ry5zzFOZKA4oDGVkDHz3jylZg'
+# filepath: [config.py](http://_vscodecontentref_/0)
+import os
+
+TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
